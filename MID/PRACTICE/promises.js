@@ -19,10 +19,10 @@ function processOrder() {
   });
 }
 
-getStudentData()
+processOrder()
   .then((customer) => {
     console.log("order data is receive");
-    console.log("order id: ", customer.orderidid);
+    console.log("order id: ", customer.orderid);
     console.log("name: ", customer.customer);
     console.log("item: ", customer.item);
     console.log("quantity: ", customer.quantity);
