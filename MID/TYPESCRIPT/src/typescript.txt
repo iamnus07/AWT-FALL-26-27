@@ -1,0 +1,9 @@
+let name: string ="hamim";
+let age : number = 25;
+let cgpa : number = 3.98;
+let is teacher : boolean= true;
+
+data type:
+1)number
+2)string
+3)boolean               
